@@ -1,0 +1,307 @@
+/*
+ Theme Name:    blankslate Child
+ Theme URI:    
+ Description:  its a blankslate child theme
+ Author:       ..
+ Author URI:   ..
+ Template:     blankslate
+ Version:      1.0.0
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, responsive-layout, infinite-scroll, post-slider, design, food, journal, magazine, news, photography, portfolio, clean, contemporary, dark, elegant, modern, professional, sophisticated
+ Text Domain:  ..
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Rubik:300,400,500,700,900');
+@font-face {
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Rubik', sans-serif;
+}
+body {margin: 0; padding: 0;font-family: 'Oswald', sans-serif;}
+.container {max-width: 100%;}
+
+h1 {font-size: 40px}
+h2 {font-size: 24px}
+h3 {font-size: 20px}
+h4 {font-size: 18px}
+ 
+p {font-size: 16px}
+ul {
+	padding:0;
+	margin: 0;
+	list-style: none; 
+}
+a {	text-decoration: none;	transition: .4s; }
+a:hover {text-decoration: none;}
+img {	max-width: 100%;}
+.header {
+	float: left;
+	width: 100%;
+	background-color: #000000;
+}
+.header-inner {
+	float: left;	
+	width: 100%;
+}
+.header-logo {
+	float: left;
+	position: absolute;
+	top: 0;
+	width: 25%;
+	z-index: 999999;
+}
+.header-logo img {
+	padding-top: 10px;
+}
+.header-nav {
+    float: left;
+    padding-left: 25%;
+    width: 100%;
+    padding-right: 80px;
+    position: relative;
+}
+.header-nav .header-socials {
+    position: absolute;
+    right: 0;
+    top: 28px;
+    width: auto;
+}
+.header-nav ul {
+	text-align: right;
+	width: 100%;
+	font-size: 0;
+}
+.header-nav ul li {
+	display: inline-block;
+}
+.header-nav ul li a {
+	font-size: 17px;
+	font-weight: lighter;
+	padding: 30px 10px;
+	color: #ffffff;
+	display: inline-block;
+}
+.header-nav ul li a:hover {
+	color: #ed1b24;
+	box-shadow: 0px 2px 0px #ed1b24 inset;
+}
+.header-nav ul li:last-child span {
+	display: inline-block;
+
+}
+
+.header-nav ul li:last-child span i {
+    background: #555555 none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    color: #c6c6c6;
+    transition: .4s;
+    font-size: 17px;
+}
+.header-nav ul li:last-child span i:hover {
+	color: #ffffff;
+	background: #ec2529 none repeat scroll 0 0;
+}
+.header-nav ul li:last-child span:first-child {
+	padding: 0 10px;
+}
+.header-nav ul li:last-child a {
+	padding: 0;
+}
+.header-nav ul li:last-child a:hover {
+	padding: 0;
+	box-shadow: none;
+}
+.drone-wrapper {
+	float: left;
+	width: 100%;
+	background-image: url('../images/drone-bg.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	padding: 80px 0 70px;
+}
+.drone-content {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.drone-wrapper .learn-more {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+}
+.drone-wrapper .learn-more a {
+	padding: 10px 40px;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #ed1b24 ;
+	display: inline-block;
+	border-radius: 2px;
+}
+.available-brands {
+	float: left;
+	width: 100%;
+	padding: 90px 0;
+}
+.available-brands h1 {
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.available-brands .brands-name {
+	float: left;
+	width: 100%;
+	margin:50px 0;
+}
+.brands-name ul {
+	font-size: 0;
+	text-align: center;
+}
+.brands-name ul li {
+	display: inline-block;
+	padding:0 30px;
+	position: relative;
+}
+.brands-name ul li:after {
+	 background-color: #dddddd;
+    content: "";
+    height: 80px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+}
+
+.brands-name ul li:last-child {
+	padding-right: 0;
+}
+.brands-name ul li:last-child:after {
+	content: none;
+}
+.drone-type {
+	float: left;
+	width: 100%;
+}
+.drone-type ul {
+	text-align: center;
+	font-size: 0;
+}
+.drone-type ul li {
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+}
+.testimonial {
+	float: left;
+	width: 100%;
+	padding: 90px 0;
+}
+
+.testimonial-inner {
+	float: left;
+	width: 100%;
+	padding: 90px 0;
+}
+.testimonial-inner .item {
+	border:1px solid #dddddd;
+	padding:35px 25px;
+	border-radius: 2px; 
+
+}
+.testimonial-inner .item h4 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	margin-bottom: 25px;
+	line-height: 28px;
+}
+.testimonial-inner .item img{
+	margin-bottom: 15px;
+}
+.testimonial-inner .item h3 {	
+	font-weight: bold;
+	margin: 0px;
+	color: #ed1b24;
+	text-transform: uppercase;
+}
+.testimonial-inner .item h3 span {
+	font-weight: lighter;
+	color: #000000;
+}
+.footer-wrapper {
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	background-color: #000000;
+}
+.footer-wrapper p {
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+	 .mean-container a.meanmenu-reveal {
+	 	top: 8px;
+	 }
+	 .mean-container .mean-bar {
+	 	padding: 8px 0;
+	 }
+	 .mean-container .mean-nav {
+	 	 margin-top: 45px;
+	 }
+	 .header-logo img {
+	    max-width: 180px;
+	    padding-top: 10px;
+	}
+
+
+
+
+}
+
+
+
+
+@media (max-width:767px) {
+	.brands-name ul li {
+		width: 100%;
+		margin-bottom: 30px;
+		padding: 0;
+	}
+	.brands-name ul li::after {
+		content: none;
+	}
+	.testimonial-inner .item {
+		margin-bottom: 30px; 
+	}
+
+}
+
+@media (max-width:480px) {
+
+	.drone-type ul li {
+		width: 100%; 
+		margin-bottom: 20px;
+	}
+
+
+
+}
+
